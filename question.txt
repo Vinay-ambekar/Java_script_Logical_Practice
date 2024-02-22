@@ -1,0 +1,85 @@
+1. Write a program that takes a string as input and returns the reverse of the string. For example, if the input is "hello," the function should return "olleh."
+
+
+2. Write a program that checks if a given string is a palindrome. A palindrome is a word, phrase, or sequence of characters that reads the same forwards and 
+  backward (ignoring spaces, punctuation, and capitalization).
+
+
+3. Write a program that takes two strings as input and determines if they are anagrams of each other. Anagrams are words or phrases formed by rearranging the
+   letters of another, such as "listen" and "silent."
+
+
+4. Write a program that converts a sentence into title case, where the first letter of each word is capitalized, and the rest of the letters are in lowercase.
+    For example, "the quick brown fox" should become "The Quick Brown Fox."
+
+
+5. Write a program that finds and returns the longest word in a given sentence. You can assume that the sentence consists of words separated by spaces.
+
+
+6. Create logic that performs basic string compression based on the repeat counts of characters. For example, the string "aabcccccaaa" would become
+"a2b1c5a3." If the compressed string is longer than the original, return the original.
+
+
+
+7. Write a program that checks if one string is a rotation of another. For instance, "waterbottle" is a rotation of "erbottlewat."
+
+
+8. Write a program that removes duplicate characters from a string. For example, given the string "hello," the function should return "helo."
+
+
+9. Write a program that generates all permutations of a given string. A permutation is an arrangement of characters from the original string.
+
+
+10. Write a program that truncates a string to a specified length and adds "..." to the end if the string was truncated. For example, if the input is 
+    "Lorem ipsum dolor sit amet," and the maximum length is 10, the function should return "Lorem ipsu..."
+
+
+11. Write a program to find the largest number in an array.
+
+
+12. Write a program to remove duplicate values from an array.
+
+
+13. Write a program that reverses the elements of an array without using the reverse method.
+
+
+14. Write a program that counts how many times a specific element appears in an array.
+
+
+15. Write a program to separate even and odd numbers into two different arrays.
+
+
+16. Combine two numeric arrays into a single sorted array.
+
+
+17. Given an array containing n distinct numbers taken from 0 to n, find the missing number.
+
+
+18. Rotate the elements of an array to the right by a specified number of positions.
+
+
+19. Split an array into chunks of a specified size, returning a 2D array.
+
+
+20. Write a program to calculate the sum of all elements in an array.
+
+21) Write a function to reverse a string 
+
+22) Given an object representing a person's information (e.g., { name: 'John', age: 30, city: 'New York' }), write a function to convert it into an array of strings,
+
+23) Write a function that takes two arrays as input and returns an array containing elements common to both arrays.
+
+24) Write a function to check if a specific key exists in an object.
+
+25) write a function that filters out the even numbers and returns a new array where each element is squared.
+
+26) Write a function that takes a sentence as input and returns the same sentence with each word reversed. For example, "Hello World" should become "olleH dlroW".
+
+27) Write a function that takes an array of numbers and returns the product of all positive numbers and the sum of all negative numbers.
+
+28) Create a function to check if two strings are contain the same characters with the same frequencies
+
+29) write a function to remove duplicate elements and return a new array with only unique elements.
+
+30) Write a function that takes an object and returns a new object where all keys are transformed to uppercase.
+
