@@ -8,3 +8,22 @@ for(let i=str.length-1;i>=0;i--){
     revr_str += str[i]
 }
 console.log('using for method = ',revr_str)
+
+/* -----***--------- */
+function reverseWords(input) {
+    var words = input.split(" ");
+    var output = "";
+    for (var i = 0; i < words.length; i++) {
+        var reversedWord = "";
+        for (var j = words[i].length - 1; j >= 0; j--) {
+            reversedWord += words[i][j];
+        }
+        output += reversedWord + " ";
+    }
+    return output.trim();
+}
+
+var input = "Try programiz pro";
+var output = reverseWords(input);
+console.log(output); // Output: "yrT zimargorp orp"
+

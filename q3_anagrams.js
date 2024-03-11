@@ -3,14 +3,14 @@
 they are anagrams of each other. Anagrams are words or phrases formed by rearranging the
 letters of another, such as "listen" and "silent."
 */
-   let str1='listen'
-   let str2='silent'
-/* function angram(str01,str02){
+let str1='listen'
+let str2='silent'
+function angram(str01,str02){
 let rearange01=str01.split('').sort().join('')
 let rearange02=str02.split('').sort().join('')
-console.log(rearange01,rearange02)
+//console.log(rearange01,rearange02)
 return rearange01===rearange02
-}console.log(angram(str1,str2)) */
+}console.log('is angram =',angram(str1,str2))
 
 /* how to sort using for loop */
 /* converting string to array usin for loop */
@@ -29,7 +29,13 @@ for(let i=0;i<arr1.length-1;i++){
     }
   }
 }
-console.log(arr1.join(''))//reverse the array
+//console.log(arr1)//reverse the array
+let final_arr=''
+for(let i=0;i<arr1.length;i++){
+  final_arr += arr1[i]
+}
+//console.log(final_arr)
+
 
 let arr2=[]
 for(let i=0;i<str2.length;i++){
@@ -47,10 +53,15 @@ for(let i=0;i<str2.length;i++){
     }
   }
 }
-console.log(arr2.join(''))
-if(arr1.join()===arr2.join()){
+//console.log(arr2)
+let final_arr1=''
+for(let i=0;i<arr2.length;i++){
+  final_arr1 += arr2[i]
+}
+//console.log(final_arr1)
+ if(final_arr===final_arr1){
   console.log('is anagram')
 }else{
   console.log('not anagram')
-}
+} 
  

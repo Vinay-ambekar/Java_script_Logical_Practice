@@ -15,6 +15,20 @@ function Check_PLd(Str){
 }console.log('palindroem is ',Check_PLd(str))
 
 
-
- 
-  
+/* to chekc only single sting  */
+let a='121'
+function paln(str){
+    let first_str=''
+    let second_str=''
+    for(let i=0;i<str.length;i++){
+        first_str +=str[i]
+    }
+    for(let i=str.length-1;i>=0;i--){
+        second_str += str[i]
+    }
+    if(first_str==second_str){
+        return 'is aplindrome'
+    }else {
+        return 'is not palindrome'
+    }
+}console.log(paln(a))
