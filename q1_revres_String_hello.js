@@ -27,3 +27,17 @@ var input = "Try programiz pro";
 var output = reverseWords(input);
 console.log(output); // Output: "yrT zimargorp orp"
 
+/* -----another way to revese string */
+let strs = 'hello world';
+let rev = '';
+let word = '';
+
+for (let i = strs.length - 1; i >= 0; i--) {
+  rev += strs[i]
+}
+let wor=rev.split(' ')
+let revwor=[]
+for(let j=wor.length-1;j>=0;j--){
+    revwor.push(wor[j])
+}
+console.log(revwor.join(' '))
