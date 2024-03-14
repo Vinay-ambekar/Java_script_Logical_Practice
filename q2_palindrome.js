@@ -32,3 +32,16 @@ function paln(str){
         return 'is not palindrome'
     }
 }console.log(paln(a))
+
+/* another way to  */
+
+// to check palendrome
+let x='121'
+function palend(str){
+ let rev=''
+ for(let i=str.length-1;i>=0;i--){
+     rev+=str[i]
+ }
+return rev===str?'is palindreom':'is not palindreom'
+}
+console.log(palend(x))

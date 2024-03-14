@@ -41,3 +41,20 @@ for(let j=wor.length-1;j>=0;j--){
     revwor.push(wor[j])
 }
 console.log(revwor.join(' '))
+
+/* rivers the string */
+//let str="Try programiz.pro"
+let words = str.split(' ')
+let reversedStr = [];
+
+for(let i=0; i<words.length; i++){
+    let word = words[i];
+    let revesrdeWord = '';
+    
+    for(let j=word.length-1; j>=0; j--){
+         revesrdeWord +=word[j]
+    }
+    reversedStr.push(revesrdeWord)
+}
+
+console.log(reversedStr.join(" "))
